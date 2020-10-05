@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Select } from './ui/Select';
+import { Select } from './ui/Select/Select';
 
 function App() {
   return (

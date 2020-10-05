@@ -2,8 +2,8 @@ import { useTheme } from '@material-ui/core';
 import React from 'react';
 
 import ReactSelect, { Props } from 'react-select';
-import { Occupation } from '../domain/occupation';
-import { State } from '../domain/state';
+import { Occupation } from '../../domain/occupation';
+import { State } from '../../domain/state';
 
 export type SelectProps<T> = Props<T>;
 export const Select = <T,>({

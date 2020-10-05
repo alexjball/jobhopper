@@ -6,7 +6,7 @@ import { State } from '../domain/state';
 import { Transition } from '../domain/transition';
 import { PrimaryButton, SecondaryButton } from './Button';
 import Logo from './Logo';
-import { OccupationSelect, StateSelect } from './Select';
+import { OccupationSelect, StateSelect } from './Select/Select';
 import TransitionTable from './TransitionTable';
 import { Body, Header } from './Typography';
 

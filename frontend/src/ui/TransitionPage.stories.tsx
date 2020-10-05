@@ -3,7 +3,7 @@ import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
 
 import TransitionPage, { TransitionPageProps } from './TransitionPage';
-import * as Select from './Select.stories';
+import * as Select from './Select/Select.stories';
 import * as TransitionTable from './TransitionTable.stories';
 
 export default {
