@@ -5,7 +5,6 @@ import {
 import React from 'react';
 import styled from 'styled-components';
 import shadow from './assets/shadow.png';
-import { Section } from './Common';
 
 export interface ButtonProps extends MButtonProps {
   label: string;
@@ -56,7 +55,7 @@ export interface ShadowButtonProps {
 
 export const ShadowButton = ({ label }: ShadowButtonProps): JSX.Element => {
   return (
-    <Section
+    <div
       style={{
         flexDirection: 'column',
         justifyContent: 'center',
@@ -65,7 +64,7 @@ export const ShadowButton = ({ label }: ShadowButtonProps): JSX.Element => {
     >
       <ShadowText>{label}</ShadowText>
       <Shadow />
-    </Section>
+    </div>
   );
 };
 
